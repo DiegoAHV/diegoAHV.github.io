@@ -1,0 +1,73 @@
+/* Navy blue i like #00285e */
+
+* {
+  font-family: 'Playfair Display SC', 'Cormorant SC', 'Antic Didone', serif;
+}
+html {
+  background: url("./assets/alicante1.jpg") no-repeat center fixed;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  
+  /* position: relative; */
+}
+
+#mc-embedded-subscribe{
+  background-color: darkblue;
+  border-color: darkblue;
+}
+#jeder {
+ background-color: darkblue;
+}
+#main::before {
+  content:"";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -999;
+  height: 100%;
+  width: 100%;
+
+  display: block;
+  background-image: url("./assets/alicante1.jpg");
+  background-size: cover;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+
+}
+.jumbotron {
+  margin-top: 5em;
+  background-color: rgba(240,240,240,.7);
+}
+
+#main {
+  position:absolute;
+  height: 100vh;
+  padding-bottom: 0;
+  z-index: 9999;
+}
+
+#header {
+  height: 66%;
+  
+}
+
+#content {
+  position:relative;
+  bottom: 0;
+  opacity: .6;
+}
+
+#content .row div {
+  color:darkblue;
+}
+
+#footer {
+  position:relative;
+  bottom: 0;
+  opacity: .6;
+  margin-top: 4px;
+  font-size: 0.75rem;
+}
